@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e407f10-b781-428e-b17b-5d62040dccdd" name="Changes" comment="Сделал наследование и инкапсуляцию">
+    <list default="true" id="8e407f10-b781-428e-b17b-5d62040dccdd" name="Changes" comment="Обрабатываю Интерфейс Сервисная Станция">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bicycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678265972331</updated>
       <workItem from="1678265973496" duration="1496000" />
-      <workItem from="1678267495702" duration="3078000" />
+      <workItem from="1678267495702" duration="5149000" />
     </task>
     <task id="LOCAL-00001" summary="Start1">
       <created>1678266074950</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678269676669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Обрабатываю Интерфейс Сервисная Станция">
+      <created>1678271244017</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678271244017</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +118,7 @@
     <MESSAGE value="Start1" />
     <MESSAGE value="Вся информация перенесена в Идею" />
     <MESSAGE value="Сделал наследование и инкапсуляцию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал наследование и инкапсуляцию" />
+    <MESSAGE value="Обрабатываю Интерфейс Сервисная Станция" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обрабатываю Интерфейс Сервисная Станция" />
   </component>
 </project>

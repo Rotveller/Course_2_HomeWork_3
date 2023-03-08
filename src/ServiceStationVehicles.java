@@ -1,5 +1,5 @@
-public interface ServiceStationVehicles {
-    public default void check(Car car, Bicycle bicycle, Truck truck) {
+public  interface ServiceStationVehicles {
+    public static void check(Car car, Bicycle bicycle, Truck truck) {
         if (car != null) {
             System.out.println("Обслуживаем " + car.getModelName());
             for (int i = 0; i < car.getWheelsCount(); i++) {
@@ -19,17 +19,5 @@ public interface ServiceStationVehicles {
                 bicycle.updateTyre();
             }
         }
-    }
-
-   private static void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-   private static void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-
-   private static void checkTrailer() {
-        System.out.println("Проверяем прицеп");
     }
 }
