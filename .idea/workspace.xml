@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e407f10-b781-428e-b17b-5d62040dccdd" name="Changes" comment="Вся информация перенесена в Идею">
-      <change afterPath="$PROJECT_DIR$/src/ServiceStationVehicles.java" afterDir="false" />
+    <list default="true" id="8e407f10-b781-428e-b17b-5d62040dccdd" name="Changes" comment="Сделал наследование и инкапсуляцию">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bicycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceStation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServiceStationVehicles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceStationVehicles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vehicles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicles.java" afterDir="false" />
     </list>
@@ -79,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678265972331</updated>
       <workItem from="1678265973496" duration="1496000" />
-      <workItem from="1678267495702" duration="2137000" />
+      <workItem from="1678267495702" duration="3078000" />
     </task>
     <task id="LOCAL-00001" summary="Start1">
       <created>1678266074950</created>
@@ -95,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678267472143</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Сделал наследование и инкапсуляцию">
+      <created>1678269676669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678269676669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start1" />
     <MESSAGE value="Вся информация перенесена в Идею" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вся информация перенесена в Идею" />
+    <MESSAGE value="Сделал наследование и инкапсуляцию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал наследование и инкапсуляцию" />
   </component>
 </project>
