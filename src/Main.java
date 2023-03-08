@@ -4,6 +4,8 @@ public class Main {
         Vehicles bicycle = new Bicycle("Olymp", 2);
         Vehicles car = new Car("BMW", 4);
         Vehicles truck = new Truck("Iveco", 12);
-        ServiceStationVehicles.check(bicycle);
+        ServiceStationVehicles.checkBicycle(bicycle);
+        ServiceStationVehicles.checkCar(car);
+        ServiceStationVehicles.checkTruck(truck);
     }
 }
