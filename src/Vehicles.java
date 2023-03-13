@@ -1,4 +1,4 @@
-public abstract class Vehicles implements  ServiceStationVehicles {
+public abstract class Vehicles {
     private final String modelName;
     private int wheelsCount;
 
@@ -18,4 +18,8 @@ public abstract class Vehicles implements  ServiceStationVehicles {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
+    static  abstract void updateTyre () {
+        System.out.println("Меняем покрышку");
     }
+}
+
