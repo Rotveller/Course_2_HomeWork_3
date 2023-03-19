@@ -1,4 +1,14 @@
-public class Truck extends Vehicles {
+public class Truck extends Vehicles{
+    @Override
+    public void service() {
+        System.out.println("Обслуживаем грузовой автомобиль марки - " + getModelName());
+        for (int i = 0; i < getWheelsCount(); i++) {
+            updateTyre();
+        }
+
+        checkEngine();
+        checkTrailer();
+    }
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
@@ -6,7 +16,7 @@ public class Truck extends Vehicles {
 
 
     static void checkEngine() {
-        System.out.println("Проверяем двигатель");
+        System.out.println("Проверяем двигатель грузовика");
     }
 
 

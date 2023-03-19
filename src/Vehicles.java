@@ -1,4 +1,8 @@
-public abstract class Vehicles {
+public abstract class Vehicles implements Diagnosticable {
+    @Override
+    public void service() {
+    }
+
     private final String modelName;
     private int wheelsCount;
 
@@ -18,8 +22,9 @@ public abstract class Vehicles {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
-    static  abstract void updateTyre () {
-        System.out.println("Меняем покрышку");
+
+    static void updateTyre() {
+        System.out.println("Проверяем колеса");
     }
 }
 
