@@ -1,5 +1,11 @@
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Vehicles bicycle = new Bicycle("Olymp", 2);
+        Vehicles car = new Car("BMW", 4);
+        Vehicles truck = new Truck("Iveco", 12);
+ServiceStationVehicles.serviceCar(car);
+ServiceStationVehicles.serviceTruck(truck);
+ServiceStationVehicles.serviceBicycle(bicycle);
     }
 }
